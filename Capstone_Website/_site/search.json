@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "📄 Download PDF"
+  },
+  {
+    "objectID": "resume.html#education",
+    "href": "resume.html#education",
+    "title": "Resume",
+    "section": "Education",
+    "text": "Education\nM.S. Data Science — Willamette University, Salem, OR (2026) B.S. Data Science — Willamette University, Salem, OR (2026)"
+  },
+  {
+    "objectID": "resume.html#skills",
+    "href": "resume.html#skills",
+    "title": "Resume",
+    "section": "Skills",
+    "text": "Skills\n\n\n\nArea\nTools\n\n\n\n\nLanguages\nR, Python, SQL\n\n\nData & ML\ntidyverse, pandas, scikit-learn.\n\n\nWorkflow\nGit, Quarto,\n\n\nCommunication\nTechnical writing, data visualization"
+  },
+  {
+    "objectID": "resume.html#experience",
+    "href": "resume.html#experience",
+    "title": "Resume",
+    "section": "Experience",
+    "text": "Experience\nCareer Center Data Analyst — Willamette University, Salem, OR (May 2026 - August 2026)\n\nDevelop a website-ready career outcomes dashboard in R, ggplot2, and Quarto that transforms postgraduation data into accessible visualizations for the Willamette University website.\n\n-Analyze, gather, and clean institutional career outcomes data to produce accurate, publication-ready visualizations aligned with stakeholder-defined KPIs.\n-Partner with cross-functional stakeholders across the Career Center, Admissions, and Institutional Research to gather requirements and translate business needs into effective data visualizations.\n-Create reproducible data pipelines and documentation using R Markdown, Quarto to support efficient annual updates and long-term project maintenance."
+  },
+  {
+    "objectID": "resume.html#projects",
+    "href": "resume.html#projects",
+    "title": "Resume",
+    "section": "Projects",
+    "text": "Projects\nQuantifying the Court — see the Capstone page for the full story.\n\nDesigned and ran an original data collection protocol (1,076 tennis shots, 5 sessions), built a full R/Python analysis pipeline, and identified a major confound in the study’s own design using formal statistical testing."
+  },
+  {
+    "objectID": "projects/data152-pilot/index.html",
+    "href": "projects/data152-pilot/index.html",
+    "title": "Does Incoming Ball Speed Predict Shot Accuracy?",
+    "section": "",
+    "text": "Before the capstone, there was a much smaller question: does the speed of an incoming ball predict how accurately a player returns it? For DATA 152, I tracked 48 shots and looked for a relationship between incoming ball speed and shot accuracy."
+  },
+  {
+    "objectID": "projects/data152-pilot/index.html#what-it-is",
+    "href": "projects/data152-pilot/index.html#what-it-is",
+    "title": "Does Incoming Ball Speed Predict Shot Accuracy?",
+    "section": "",
+    "text": "Before the capstone, there was a much smaller question: does the speed of an incoming ball predict how accurately a player returns it? For DATA 152, I tracked 48 shots and looked for a relationship between incoming ball speed and shot accuracy."
+  },
+  {
+    "objectID": "projects/data152-pilot/index.html#what-i-did",
+    "href": "projects/data152-pilot/index.html#what-i-did",
+    "title": "Does Incoming Ball Speed Predict Shot Accuracy?",
+    "section": "What I did",
+    "text": "What I did\n\nManually recorded incoming ball speed and shot outcome for 48 tennis groundstrokes.\nBuilt a small analysis in R to test for a relationship between speed and accuracy.\nUsed the result, and its limitations, to scope a much larger follow-up study."
+  },
+  {
+    "objectID": "projects/data152-pilot/index.html#the-result",
+    "href": "projects/data152-pilot/index.html#the-result",
+    "title": "Does Incoming Ball Speed Predict Shot Accuracy?",
+    "section": "The result",
+    "text": "The result\nThe sample was too small to draw a confident conclusion, but the exercise surfaced the real question worth answering: not just “does incoming speed matter,” but “what actually predicts accuracy, and can I measure accuracy well enough to find out.” That question became the foundation of my capstone, Quantifying the Court, which scaled this idea up to 1,072 shots with a proper weighted scoring system."
+  },
+  {
+    "objectID": "projects/data152-pilot/index.html#links",
+    "href": "projects/data152-pilot/index.html#links",
+    "title": "Does Incoming Ball Speed Predict Shot Accuracy?",
+    "section": "Links",
+    "text": "Links\n\n📊 Follow-up: Quantifying the Court (capstone)"
+  },
+  {
+    "objectID": "capstone.html",
+    "href": "capstone.html",
+    "title": "Quantifying the Court",
+    "section": "",
+    "text": "I combined SwingVision ball-tracking data with a manually reviewed, weighted target-zone scoring system so that Willamette Men’s Tennis players and coaches can move past binary “in/out” statistics and see which factors actually predict shot precision.\n\nRole: Solo, data collection design, IRB/consent process, data engineering, statistical analysis, and machine learning. Team: Solo project. Repo: github.com/lcasano26/data510-Luca-Capstone"
+  },
+  {
+    "objectID": "capstone.html#the-one-liner",
+    "href": "capstone.html#the-one-liner",
+    "title": "Quantifying the Court",
+    "section": "",
+    "text": "I combined SwingVision ball-tracking data with a manually reviewed, weighted target-zone scoring system so that Willamette Men’s Tennis players and coaches can move past binary “in/out” statistics and see which factors actually predict shot precision.\n\nRole: Solo, data collection design, IRB/consent process, data engineering, statistical analysis, and machine learning. Team: Solo project. Repo: github.com/lcasano26/data510-Luca-Capstone"
+  },
+  {
+    "objectID": "capstone.html#the-question",
+    "href": "capstone.html#the-question",
+    "title": "Quantifying the Court",
+    "section": "The question",
+    "text": "The question\nCollegiate tennis players often adjust technique and strategy based on intuition rather than data, especially where coaching resources are limited. Automated tracking tools like SwingVision generate a lot of raw shot data, but reduce every shot to simple in/out outcomes that hide real differences in precision. This project asks: to what extent do stroke type, accumulated fatigue, player skill (UTR), and handedness predict cross-court groundstroke accuracy, when accuracy is measured with a weighted target-zone system instead of a binary outcome?"
+  },
+  {
+    "objectID": "capstone.html#the-data",
+    "href": "capstone.html#the-data",
+    "title": "Quantifying the Court",
+    "section": "The data",
+    "text": "The data\nI collected 1,076 shots across five hitting sessions (one per participant, UTR ranging 1.5-12.0), using a ball machine to standardize incoming feeds and SwingVision to automatically track stroke type, speed, spin, and bounce location. Every shot was then manually reviewed and assigned one of sixteen accuracy zones, weighted from 0.00 (a miss) to 0.95 (closest to target).\nThe hardest part wasn’t collecting the data, it was trusting it. Cleaning turned up mislabeled export columns, bounce coordinates that disagreed with the manually scored zone on ~38% of shots, and one shot recorded 6 feet past the physical baseline (likely a tracking failure on a high-arcing ball). I ended up treating the manually reviewed accuracy zone as ground truth throughout, and using the automated coordinates only for illustrative spatial visualization, a real, documented reliability hierarchy rather than assuming the automated pipeline was correct by default."
+  },
+  {
+    "objectID": "capstone.html#the-approach",
+    "href": "capstone.html#the-approach",
+    "title": "Quantifying the Court",
+    "section": "The approach",
+    "text": "The approach\nTwo tracks, deliberately kept separate:\n\nStatistical testing (R): a t-test and one-way ANOVA on each predictor individually, then a two-way ANOVA testing stroke type, fatigue stage, and their interaction together, because that’s what the research question actually asks.\nMachine learning (Python): six regression approaches (Linear Regression, KNN, SVR, Random Forest, Gradient Boosting, XGBoost) compared under identical conditions, evaluated with leave-one-session-out cross-validation, each fold holds out one player’s entire session, not a random slice of shots, since shots from the same player aren’t independent observations."
+  },
+  {
+    "objectID": "capstone.html#findings",
+    "href": "capstone.html#findings",
+    "title": "Quantifying the Court",
+    "section": "Findings",
+    "text": "Findings\n\n\n\nShot bounce locations for all 1,072 groundstrokes, colored by weighted accuracy score. Left cluster is the forehand target (deuce box), right is the backhand target (ad box).\n\n\nThe headline result isn’t a clean confirmation, it’s a finding about the experimental design itself. Individually, stroke type and fatigue stage each showed a small, statistically significant effect on accuracy. But because each session was collected in a strictly blocked order (~100 forehands, then backhands, rather than alternating), stroke type and fatigue turned out to be almost the same variable (r = -0.94). Once tested together in a two-way ANOVA, neither effect survived, a textbook confound, not a contradiction.\nOn the machine learning side, no model beat the R² &gt; 0 threshold set in my original proposal, but every tuned model (including a shallow, regularized Random Forest that won out over more complex options) did beat a naive baseline. Player skill (UTR) dominated feature importance at 66-72%, far ahead of anything related to stroke type or fatigue.\nThe honest caveat: this dataset can’t tell you whether stroke type or fatigue independently drives accuracy, because they were never varied independently during collection. That’s the single biggest thing I’d change about the study design, and it’s the main recommendation in my future work."
+  },
+  {
+    "objectID": "capstone.html#the-full-write-up",
+    "href": "capstone.html#the-full-write-up",
+    "title": "Quantifying the Court",
+    "section": "The full write-up",
+    "text": "The full write-up\nDownload the Write Up (PDF)"
+  },
+  {
+    "objectID": "capstone.html#dig-deeper",
+    "href": "capstone.html#dig-deeper",
+    "title": "Quantifying the Court",
+    "section": "Dig deeper",
+    "text": "Dig deeper\n\n📦 Code & pipeline: data510-Luca-Capstone\n📊 Poster: embedded above"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I came to Data Science in my junior year at Willamette when I declared my Major. The introductory classes for data science really drew me in with visualizing and fixing problems using data. What keeps me here is turning something messy, like 1,000+ hand-scored tennis shots, into a clear, honest answer about what actually predicts performance, even when that answer isn’t the one you expected going in.\nAt Willamette my focus has been sports analytics and reproducible data pipelines. My capstone, a study of what predicts groundstroke accuracy on the Willamette Men’s Tennis team, is where that comes together: original data collection, a full R and Python pipeline, and a result that ended up being more about experimental design than about tennis.\n\n\n\n🎾 Former member and current assistant coach with Willamette Men’s Tennis Team\n🎮 Currently playing Warframe, Minecraft, Arma Reforger, Squad, War Thunder, and BTD6\n🎯 Want to be working at a job I love in 2 years\n\n\n\n\nI’m happy to talk about [data work, collaborations, roles].\n\n✉️ lcasano808@gmail.com\n💼 LinkedIn\n💻 GitHub"
+  },
+  {
+    "objectID": "about.html#hi-im-luca",
+    "href": "about.html#hi-im-luca",
+    "title": "About",
+    "section": "",
+    "text": "I came to Data Science in my junior year at Willamette when I declared my Major. The introductory classes for data science really drew me in with visualizing and fixing problems using data. What keeps me here is turning something messy, like 1,000+ hand-scored tennis shots, into a clear, honest answer about what actually predicts performance, even when that answer isn’t the one you expected going in.\nAt Willamette my focus has been sports analytics and reproducible data pipelines. My capstone, a study of what predicts groundstroke accuracy on the Willamette Men’s Tennis team, is where that comes together: original data collection, a full R and Python pipeline, and a result that ended up being more about experimental design than about tennis.\n\n\n\n🎾 Former member and current assistant coach with Willamette Men’s Tennis Team\n🎮 Currently playing Warframe, Minecraft, Arma Reforger, Squad, War Thunder, and BTD6\n🎯 Want to be working at a job I love in 2 years\n\n\n\n\nI’m happy to talk about [data work, collaborations, roles].\n\n✉️ lcasano808@gmail.com\n💼 LinkedIn\n💻 GitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Luca Casano",
+    "section": "",
+    "text": "I build data pipelines and turn messy, real-world data into decisions people can act on. Right now I am finishing my M.S. in Data Science at Willamette University, where my capstone quantifies cross-court groundstroke accuracy for the Willamette Men’s Tennis coaching staff and players.\nI care about sports analytics, reproducible workflows, and being honest about what a dataset can and can’t tell you, my capstone’s biggest finding was a confound in my own experimental design, and reporting that clearly mattered more than forcing a clean result.\nCurrently looking for data analyst / data scientist / business analyst roles starting september 2026. Get in touch or grab my resume.\n\n\n\n🎓 Education\nM.S. Data Science Willamette University, 2026\n\n\n🛠️ Toolkit\nR · Python · SQL Quarto · Git · scikit-learn\n\n\n📍 Based in\nSalem, OR Open to remote"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Other Projects",
+    "section": "",
+    "text": "Your capstone lives on its own page. Everything else — course projects, analyses you did for fun, contributions — collects here automatically.\nEach project is a folder under projects/ with an index.qmd. Add a folder, re-render, and a new card shows up. Delete the example below once you have one real project of your own.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDoes Incoming Ball Speed Predict Shot Accuracy?\n\n\n\ncourse-work\n\n\nR\n\n\nsports-analytics\n\n\n\nA 48-shot pilot study for DATA 152, the project that became my capstone.\n\n\n\nDec 1, 2025\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "capstone.html#poster",
+    "href": "capstone.html#poster",
+    "title": "Quantifying the Court",
+    "section": "Poster",
+    "text": "Poster\nDownload the poster (PDF)"
+  }
+]

@@ -1,0 +1,36 @@
+---
+title: "About"
+image: images/IMG_0506.JPG
+about:
+  template: solana
+  image-shape: round
+  image-width: 12em
+---
+
+## Hi, I'm Luca 👋
+
+I came to Data Science in my junior year at Willamette when I declared my Major. The introductory classes for data science really drew me in with visualizing and fixing problems using data. What keeps me here is turning something messy,
+like 1,000+ hand-scored tennis shots, into a clear, honest answer about
+what actually predicts performance, even when that answer isn't the one
+you expected going in.
+
+At Willamette my focus has been sports analytics and reproducible data
+pipelines. My [capstone](capstone.qmd), a study of what predicts
+groundstroke accuracy on the Willamette Men's Tennis team, is where that
+comes together: original data collection, a full R and Python pipeline,
+and a result that ended up being more about experimental design than about
+tennis.
+
+### Beyond the terminal
+
+- 🎾 Former member and current assistant coach with Willamette Men's Tennis Team
+- 🎮 Currently into playing Warframe, Minecraft, Arma Reforger, Squad, War Thunder, and BTD6
+- 🎯 Want to be working at a job I love in 2 years
+
+### Get in touch
+
+I'm happy to talk about data work, collaborations, roles.
+
+- ✉️ [lcasano808@gmail.com](mailto:lcasano808@gmail.com)
+- 💼 [LinkedIn](https://www.linkedin.com/in/luca-casano/)
+- 💻 [GitHub](https://github.com/lcasano26)
