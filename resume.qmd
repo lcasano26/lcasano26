@@ -3,44 +3,53 @@ title: "Resume"
 toc: true
 ---
 
-[📄 Download PDF](assets/resume.pdf){.btn .btn-primary role="button"}
+[📄 Download PDF](assets/Luca Casano - Resume (1).pdf){.btn .btn-primary role="button"}
 
 ::: {.callout-note appearance="simple"}
-Drop your typeset resume at `assets/resume.pdf` and it appears below. Any PDF
+Drop your typeset resume at `assets/Luca Casano - Resume (1).pdf` and it appears below. Any PDF
 works tonight — export from Word, Google Docs, or a `vitae`/LaTeX template. The
 web summary below is what recruiters skim; the PDF is what they download.
 :::
 
-<iframe src="assets/resume.pdf" width="100%" height="800px"
+<iframe src="assets/Luca Casano - Resume (1).pdf" width="100%" height="800px"
   style="border: 1px solid #ddd; margin-top: 1rem;">
 </iframe>
 
 ## Education
 
 **M.S. Data Science** — Willamette University, Salem, OR *(2026)*
-**B.S. \[Your Major\]** — \[Your University\], \[City\] *(\[year\])*
+**B.S. Data Science** — Willamette University, Salem, OR *(2026)*
 
 ## Skills
 
 | Area | Tools |
 |------|-------|
 | **Languages** | R, Python, SQL |
-| **Data & ML** | \[tidyverse / pandas, scikit-learn, ...\] |
-| **Workflow** | Git, Quarto, \[Docker, cloud, ...\] |
+| **Data & ML** | tidyverse, pandas, scikit-learn. |
+| **Workflow** | Git, Quarto, |
 | **Communication** | Technical writing, data visualization |
 
 ## Experience
 
-**\[Job Title\]** — \[Organization\], \[Location\] *(\[dates\])*
+**Career Center Data Analyst** — Willamette University, Salem, OR *(May 2026 - August 2026)*
 
-- Accomplishment framed as impact, not a task description.
-- Another accomplishment with a number in it if you have one.
+- Develop a website-ready career outcomes dashboard in R, ggplot2, and Quarto that transforms postgraduation data into accessible visualizations for the Willamette University website.
+
+- Analyze, gather, and clean institutional career outcomes data to produce accurate, publication-ready
+visualizations aligned with stakeholder-defined KPIs.
+
+- Partner with cross-functional stakeholders across the Career Center, Admissions, and Institutional Research
+to gather requirements and translate business needs into effective data visualizations.
+
+- Create reproducible data pipelines and documentation using R Markdown, Quarto to support efficient
+annual updates and long-term project maintenance.
+
 
 ## Projects
 
-**\[Capstone Title\]** — see the [Capstone page](capstone.qmd) for the full story.
+**Quantifying the Court** — see the [Capstone page](capstone.qmd) for the full story.
 
-- One line on the problem and your role.
+- Designed and ran an original data collection protocol (1,076 tennis shots,
+  5 sessions), built a full R/Python analysis pipeline, and identified a
+  major confound in the study's own design using formal statistical testing.
 
-*Placeholders in brackets are fine while you build. Replace them with real,
-defensible entries as they materialize — sparse and true beats full and shaky.*

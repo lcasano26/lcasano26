@@ -1,0 +1,36 @@
+---
+title: "Does Incoming Ball Speed Predict Shot Accuracy?"
+description: "A 48-shot pilot study for DATA 152, the project that became my capstone."
+date: 2025-12-01
+image: Introduction to Tennis.png
+categories: [course-work, R, sports-analytics]
+---
+
+## What it is
+
+Before the capstone, there was a much smaller question: does the speed of
+an incoming ball predict how accurately a player returns it? For DATA 152,
+I tracked 48 shots and looked for a relationship between incoming ball
+speed and shot accuracy.
+
+## What I did
+
+- Manually recorded incoming ball speed and shot outcome for 48 tennis
+  groundstrokes.
+- Built a small analysis in R to test for a relationship between speed and
+  accuracy.
+- Used the result, and its limitations, to scope a much larger follow-up
+  study.
+
+## The result
+
+The sample was too small to draw a confident conclusion, but the exercise
+surfaced the real question worth answering: not just "does incoming speed
+matter," but "what actually predicts accuracy, and can I measure accuracy
+well enough to find out." That question became the foundation of my
+capstone, [Quantifying the Court](/capstone.qmd), which scaled this idea up
+to 1,072 shots with a proper weighted scoring system.
+
+## Links
+
+- 📊 **Follow-up:** [Quantifying the Court (capstone)](/capstone.qmd)
